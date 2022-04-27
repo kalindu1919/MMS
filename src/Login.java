@@ -26,7 +26,7 @@ public class Login {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             var con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/mmsdb", "root", "admin");
-            System.out.println("Successfully connected");
+            System.out.println("Successfully__connected");
             return con;
         } catch (ClassNotFoundException ex) {
             ex.printStackTrace();
